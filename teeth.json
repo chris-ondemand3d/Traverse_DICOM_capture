@@ -1,0 +1,338 @@
+{
+  "path": "",
+  "patient_id": "",
+  "patient_name": "",
+  "study_uid": "",
+  "study_date": "",
+  "lower_path": "",
+  "upper_path": "",
+  "airway_path": "",
+  "mandible_path": "",
+  "maxilla_path": "",
+  "left_sinus_path": "",
+  "right_sinus_path": "",
+  "left_nerve_path": "",
+  "right_nerve_path": "",
+  "teeth": [
+    {
+      "number": 11,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 12,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 13,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 14,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 15,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 16,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 17,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 18,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 21,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 22,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 23,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 24,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 25,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 26,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 27,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 28,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+        {
+      "number": 31,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 32,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 33,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 34,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 35,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 36,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 37,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 38,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 41,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 42,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 43,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 44,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 45,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 46,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 47,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    },
+    {
+      "number": 48,
+      "missing": true,
+      "implant": false,
+      "caries": false,
+      "periapicalLesion": false,
+      "periodontitisMeasure": 1,
+      "tooth_path": "",
+      "fused_tooth_path": ""
+    }
+  ]
+}

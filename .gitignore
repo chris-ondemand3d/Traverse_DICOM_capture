@@ -1,0 +1,6 @@
+*_qmlcache.qrc
+__pycache__/
+*.pth
+Dataset111_453CT/
+Dataset111_453CT/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/checkpoint_final.pth
+
