@@ -829,13 +829,16 @@ def load_dicom(directory,blendType=3,makenifti=True):
     mapper.SetInputConnection(shiftScale.GetOutputPort())
     
    
+    rotation_matrix = numpy.column_stack((rowCosine, colCosine, sliceCosine))
+    # Create the 4x4 transformation matrix
+    transform_matrix = numpy.eye(3)
+    transform_matrix[:3, :3] = rotation_matrix.T
+    
     mat = vtk.vtkMatrix4x4()
     for i in range(3):
-        mat.SetElement(i,0,direction_x[i])
-        mat.SetElement(i,1,direction_y[i])
-        mat.SetElement(i,2,direction_z[i])
+        for j in range(3):
+            mat.SetElement(i,j,transform_matrix[i,j])
         mat.SetElement(i,3,-origin[i])
-        i=i+1
 
     volume.SetUserMatrix(mat)
    
