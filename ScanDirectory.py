@@ -595,19 +595,19 @@ def load_dicom(directory,blendType=3,makenifti=True):
             colCosine = numpy.array(dirCosines[3:])
             sliceCosine = numpy.cross(rowCosine,colCosine)
 
-            if len(series_files)>1:
-                slice_distances = []              
-                for i in range(1,len(series_files)):
-                    distance = numpy.linalg.norm(numpy.array(series_files[i][1])-numpy.array(series_files[i-1][1]))
-                    slice_distances.append(distance)      
-                avg_slice_distance = numpy.mean(slice_distances)
-            else:
-                avg_slice_distance = None
-
             for i in range(len(series_files)):
                 series_files[i].append([numpy.dot((numpy.array(series_files[i][1])-numpy.array(origin)),sliceCosine)])
 
             sorted_series_files = sorted(series_files, key=getKey, reverse=False)
+
+            if len(series_files)>1:
+                slice_distances = []              
+                for i in range(1,len(sorted_series_files)):
+                    distance = numpy.linalg.norm(numpy.array(sorted_series_files[i][1])-numpy.array(sorted_series_files[i-1][1]))
+                    slice_distances.append(distance)      
+                avg_slice_distance = numpy.mean(slice_distances)
+            else:
+                avg_slice_distance = None
 
             dx = pixelSpacing[0]
             dy = pixelSpacing[1]            
